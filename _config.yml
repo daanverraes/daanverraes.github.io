@@ -32,7 +32,7 @@ linkedin_username: daanverraes
 # Additional icon links
 additional_links:
 - title: molmod.ugent.be/members/daan-verraes
-  icon: fas building-columns
+  icon: fas fa-building-columns
   url: https://molmod.ugent.be/members/daan-verraes
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  PhD Researcher at Ghent University | MSc. in Engineering Physics (ir.) and MSc. in Physics and Astronomy
+  *PhD Researcher at Ghent University, MSc. in Engineering Physics (ir.) and MSc. in Physics and Astronomy*
 
 content:
   - title: Projects # Title for the section
