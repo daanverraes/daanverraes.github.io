@@ -48,10 +48,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/pf_blanco.jpg
 about_content: | # this will include new lines to allow paragraphs
-  *PhD Researcher at Ghent University
-  MSc. in Engineering Physics (ir.) and MSc. in Physics and Astronomy*
+  *PhD Researcher at Ghent University*
+  
+  *MSc. in Engineering Physics (ir.) and MSc. in Physics and Astronomy*
 
-  new alinea?
+  new alinea??
 
 content:
   # - title: Projects # Title for the section
