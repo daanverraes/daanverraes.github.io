@@ -9,7 +9,7 @@ version: 2
 name: Daan Verraes
 title: PhD Researcher
 email: daan.verraes@ugent.be
-website: www.github.com/daanverraes
+# website: www.github.com/daanverraes
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -52,8 +52,6 @@ about_content: | # this will include new lines to allow paragraphs
   
   *MSc. in Engineering Physics (ir.) and MSc. in Physics and Astronomy*
 
-  new alinea?
-
 content:
   # - title: Projects # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -91,6 +89,24 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Ghent University
+        caption: 2022 - 2024
+        sub_title: M.Sc. in Physics and Astronomy
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Grade: summa cum laude
+          
+      - layout: left
+        title: Ghent University
+        caption: 2021 - 2023
+        sub_title: M.Sc. in Engineering Physics (ir.)
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Grade: summa cum laude
+          
       - layout: left
         title: Ghent University
         caption: 2018 - 2021
