@@ -32,7 +32,7 @@ linkedin_username: daanverraes
 # Additional icon links
 additional_links:
 - title: molmod.ugent.be/members/daan-verraes
-  icon: fab fa-atom
+  icon: fas fa-atom
   url: https://molmod.ugent.be/members/daan-verraes
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   *MSc. in Engineering Physics (ir.) and MSc. in Physics and Astronomy*
 
-  new alinea??
+  new alinea?
 
 content:
   # - title: Projects # Title for the section
