@@ -7,135 +7,157 @@ version: 2
 
 # Personal info
 name: Daan Verraes
-title: PhD Researcher
+title: PhD Researcher | Engineer | Innovator
 email: daan.verraes@ugent.be
-# website: www.github.com/daanverraes
+website: https://daanverraes.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-# twitter_username: facespics
-github_username:  daanverraes
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: daanverraes
+github_username: daanverraes
 linkedin_username: daanverraes
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
+instagram_username: daanverraes
 orcid_username: 0009-0001-7403-628X
 
 # Additional icon links
 additional_links:
-- title: molmod.ugent.be/members/daan-verraes
-  icon: fas fa-atom
-  url: https://molmod.ugent.be/members/daan-verraes
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: MolMod Group Profile
+    icon: fas fa-atom
+    url: https://molmod.ugent.be/members/daan-verraes
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "UA-12345678-9"
+
+# Hero Section
+hero:
+  title: "Hi, I'm Daan Verraes"
+  subtitle: "PhD Researcher at Ghent University"
+  profile_image: images/pf_blanco.jpg
+  description: |
+    Passionate about theoretical and computational quantum mechanics. 
+    Exploring the intersection of physics, mathematics, and computing.
+  cta_buttons:
+    - text: "Contact Me"
+      link: mailto:daan.verraes@ugent.be
+      icon: fas fa-envelope
+    - text: "View My Research"
+      link: https://molmod.ugent.be/members/daan-verraes
+      icon: fas fa-external-link-alt
 
 # About Section
-# about_title: About Me
-about_profile_image: images/pf_blanco.jpg
-about_content: | # this will include new lines to allow paragraphs
-  *PhD Researcher at Ghent University*
-  
-  *MSc. in Engineering Physics (ir.) and MSc. in Physics and Astronomy*
+about:
+  title: About Me
+  profile_image: images/pf_blanco.jpg
+  content: |
+    I am a PhD Researcher at Ghent University with a background in 
+    Engineering Physics and Physics and Astronomy. My research interests lie 
+    in the realm of quantum mechanics, theoretical physics, and computational science.
+    Outside of academics, I enjoy chess, padel, basketball, and triathlons.
 
-content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark>
-          
-  # - title: Experience # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: The Boring Company
-  #       link: boringcompany.com
-  #       # link_text: boringcompany.com
-  #       sub_title: Senior Network System Administrator
-  #       caption: November 2017 - Present
-  #       quote: >
-  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+# Education Section
+education:
+  title: Education
+  layout: timeline
+  content:
+    - layout: left
+      title: Ghent University
+      caption: 2022 - 2024
+      sub_title: M.Sc. in Physics and Astronomy
+      description: |
+        Grade: Summa Cum Laude
+    - layout: left
+      title: Ghent University
+      caption: 2021 - 2023
+      sub_title: M.Sc. in Engineering Physics
+      description: |
+        Grade: Summa Cum Laude
+    - layout: left
+      title: Ghent University
+      caption: 2018 - 2021
+      sub_title: B.Sc. in Engineering Physics
+      description: |
+        Grade: Magna Cum Laude
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Ghent University
-        caption: 2022 - 2024
-        sub_title: M.Sc. in Physics and Astronomy
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Grade: summa cum laude
-          
-      - layout: left
-        title: Ghent University
-        caption: 2021 - 2023
-        sub_title: M.Sc. in Engineering Physics (ir.)
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Grade: summa cum laude
-          
-      - layout: left
-        title: Ghent University
-        caption: 2018 - 2021
-        sub_title: B.Sc. in Engineering Physics
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Grade: magna cum laude
-          
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in theoretical and computational quantum mechanics some of my other interests and hobbies are:
-      - Chess
-      - Padel
-      - Basketball
-      - Triatlon
-      - ...
+# Research and Publications
+research:
+  title: Research & Publications
+  layout: list
+  content:
+    - title: "Quantum Dynamics in Reduced Dimensions"
+      link: https://doi.org/example
+      description: |
+        A novel study of quantum systems in reduced dimensions.
+    - title: "Computational Models for Quantum Behavior"
+      link: https://doi.org/example2
+      description: |
+        Advanced computational techniques in theoretical quantum mechanics.
+
+# Projects Section
+projects:
+  title: Projects
+  layout: grid
+  content:
+    - title: "Quantum Dynamics Simulator"
+      link: https://github.com/daanverraes/quantum-simulator
+      description: |
+        An open-source simulator for studying quantum mechanical systems.
+      icon: fab fa-github
+    - title: "Physics Visualization Toolkit"
+      link: https://github.com/daanverraes/physics-viz
+      description: |
+        A toolkit for creating interactive physics visualizations.
+      icon: fab fa-github
+
+# Interests
+interests:
+  title: Interests
+  layout: icons
+  content:
+    - title: Chess
+      icon: fas fa-chess
+    - title: Padel
+      icon: fas fa-table-tennis
+    - title: Basketball
+      icon: fas fa-basketball-ball
+    - title: Triathlon
+      icon: fas fa-bicycle
+
+# Skills
+skills:
+  title: Skills
+  layout: bar
+  content:
+    - title: Python
+      level: 95
+    - title: Quantum Mechanics
+      level: 90
+    - title: Data Analysis
+      level: 85
+    - title: Machine Learning
+      level: 80
+
+# Contact Section
+contact:
+  title: Get in Touch
+  email: daan.verraes@ugent.be
+  phone: "+32 123 456 789"
+  address: Ghent, Belgium
+  social_links:
+    - platform: LinkedIn
+      username: daanverraes
+    - platform: GitHub
+      username: daanverraes
+    - platform: Instagram
+      username: daanverraes
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+footer:
+  show_references: true
+  references_text: References available on request.
+  copyright_text: "© 2024 Daan Verraes"
+  additional_links:
+    - text: Privacy Policy
+      link: /privacy-policy
+    - text: Terms of Use
+      link: /terms-of-use
